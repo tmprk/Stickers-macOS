@@ -25,6 +25,9 @@ It's pretty self explanatory, but there are 3 main components: a sticker manager
 ### Screenshot
 
 ![Screenshots](/Assets/stickers-showcase.png)
+<div align="center">
+	<img src="/Assets/popover.png">
+</div>
 
 ### Roadmap:
 * create a unified marketplace (web app) of stickers that can be downloaded easily
