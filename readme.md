@@ -19,7 +19,7 @@ It's pretty self explanatory, but there are 3 main components: a sticker manager
 
 ### Demo
 <div align="center">
-![Demo](/Assets/demo.gif)
+	<img src="/Assets/demo.gif">
 </div>
 
 ### Screenshot
