@@ -11,16 +11,16 @@
 		<b>Create and manage stickers for macOS</b>
 	</p>
 	<br>
-	<br>
 </div>
 
-Similar to stickers on iMessage, this app allows you to create stickers from screenshots or existing images quickly.
+Similar to stickers on iOS messages, this mac app allows you to create stickers from screenshots or existing images quickly.
 
 It's pretty self explanatory, but there are 3 main components: a sticker manager, editor, and popover. You can edit and view your sticker collections in the manager, cut-out stickers from screen captures using the editor, and easily insert images into any textfield.
 
 ### Demo
-
+<div align="center">
 ![Demo](/Assets/demo.gif)
+</div>
 
 ### Screenshot
 
