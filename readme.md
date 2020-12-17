@@ -1,13 +1,13 @@
 <br/>
 <p align="center">
   <a href="">
-    <img src="/Assets/800.png" alt="Logo" width="80" height="80">
+    <img src="/Assets/800.png" alt="Logo" width="100" height="100">
   </a>
 </p>
 
-## About The Project
+## Sticker Manager
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![Screenshots](/Assets/stickers-showcase.png)
 
 Similar to stickers on iMessage, this app allows you to create stickers from screenshots or existing images on the fly.
 
