@@ -9,7 +9,7 @@
 import Cocoa
 
 // https://github.com/sendyhalim/Yomu/blob/7bb9a4db4d397a280d719b8b55837b7778d53a28/Yomu/Common/Views/MenuableCollectionView.swift
-protocol CollectionViewMenuSource: class {
+protocol CollectionViewMenuSource: AnyObject {
     func menu(for event: NSEvent) -> NSMenu?
 }
 

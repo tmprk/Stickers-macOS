@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D29F8603D02EAC45E7E0BE8 /* Pods_Stickers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC4B63A67ACC6709342D3CD /* Pods_Stickers.framework */; };
 		6E03BC1724D5226D00F7583E /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E03BC1624D5226D00F7583E /* ImageView.swift */; };
 		6E0A440924CA3CCB00CA24A3 /* NSWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0A440824CA3CCB00CA24A3 /* NSWindow.swift */; };
 		6E0DE3A324EDF42E00D31C16 /* WaterfallFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0DE3A224EDF42E00D31C16 /* WaterfallFlowLayout.swift */; };
@@ -52,6 +51,8 @@
 		6EBFBDB424D0B64600AFCDB9 /* NSSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBFBDB324D0B64600AFCDB9 /* NSSegmentedControl.swift */; };
 		6ECE1D8224C91F1A0010585B /* FrontmostApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECE1D8124C91F1A0010585B /* FrontmostApplication.swift */; };
 		6EE215DD24ED03CD004C6BEF /* attributions.md in Resources */ = {isa = PBXBuildFile; fileRef = 6EE215DC24ED03CD004C6BEF /* attributions.md */; };
+		6EE29281274B95F300F3DF5B /* MASShortcut in Frameworks */ = {isa = PBXBuildFile; productRef = 6EE29280274B95F300F3DF5B /* MASShortcut */; };
+		6EE29284274B960A00F3DF5B /* SwiftyMarkdown in Frameworks */ = {isa = PBXBuildFile; productRef = 6EE29283274B960A00F3DF5B /* SwiftyMarkdown */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,9 +105,6 @@
 		6EBFBDB324D0B64600AFCDB9 /* NSSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSSegmentedControl.swift; sourceTree = "<group>"; };
 		6ECE1D8124C91F1A0010585B /* FrontmostApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontmostApplication.swift; sourceTree = "<group>"; };
 		6EE215DC24ED03CD004C6BEF /* attributions.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = attributions.md; sourceTree = "<group>"; };
-		711E92BCE797BF3EA2E9FF24 /* Pods-Stickers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stickers.release.xcconfig"; path = "Target Support Files/Pods-Stickers/Pods-Stickers.release.xcconfig"; sourceTree = "<group>"; };
-		CEC4B63A67ACC6709342D3CD /* Pods_Stickers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stickers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D417EB54617253B1BBED2AE1 /* Pods-Stickers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stickers.debug.xcconfig"; path = "Target Support Files/Pods-Stickers/Pods-Stickers.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,22 +112,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D29F8603D02EAC45E7E0BE8 /* Pods_Stickers.framework in Frameworks */,
+				6EE29281274B95F300F3DF5B /* MASShortcut in Frameworks */,
+				6EE29284274B960A00F3DF5B /* SwiftyMarkdown in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03E803134B1E68E203795849 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D417EB54617253B1BBED2AE1 /* Pods-Stickers.debug.xcconfig */,
-				711E92BCE797BF3EA2E9FF24 /* Pods-Stickers.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		6E2DF66D244EFADD00B08CEF /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,8 +195,6 @@
 			children = (
 				6EB67495244ACF40005D10DC /* Stickers */,
 				6EB67494244ACF40005D10DC /* Products */,
-				03E803134B1E68E203795849 /* Pods */,
-				C7E4EB657FC5383B0F00A7B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -251,14 +239,6 @@
 			path = Accessibility;
 			sourceTree = "<group>";
 		};
-		C7E4EB657FC5383B0F00A7B6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CEC4B63A67ACC6709342D3CD /* Pods_Stickers.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -266,17 +246,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EB674A3244ACF41005D10DC /* Build configuration list for PBXNativeTarget "Stickers" */;
 			buildPhases = (
-				8953FBDDBF739387C7B2D394 /* [CP] Check Pods Manifest.lock */,
 				6EB6748F244ACF40005D10DC /* Sources */,
 				6EB67490244ACF40005D10DC /* Frameworks */,
 				6EB67491244ACF40005D10DC /* Resources */,
-				01ED2EB4DC55C1C826410119 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Stickers;
+			packageProductDependencies = (
+				6EE29280274B95F300F3DF5B /* MASShortcut */,
+				6EE29283274B960A00F3DF5B /* SwiftyMarkdown */,
+			);
 			productName = Stickers;
 			productReference = 6EB67493244ACF40005D10DC /* Stickers.app */;
 			productType = "com.apple.product-type.application";
@@ -305,6 +287,10 @@
 				Base,
 			);
 			mainGroup = 6EB6748A244ACF40005D10DC;
+			packageReferences = (
+				6EE2927F274B95F300F3DF5B /* XCRemoteSwiftPackageReference "MASShortcut" */,
+				6EE29282274B960A00F3DF5B /* XCRemoteSwiftPackageReference "SwiftyMarkdown" */,
+			);
 			productRefGroup = 6EB67494244ACF40005D10DC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -326,48 +312,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		01ED2EB4DC55C1C826410119 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Stickers/Pods-Stickers-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Stickers/Pods-Stickers-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stickers/Pods-Stickers-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8953FBDDBF739387C7B2D394 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Stickers-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6EB6748F244ACF40005D10DC /* Sources */ = {
@@ -549,7 +493,6 @@
 		};
 		6EB674A4244ACF41005D10DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D417EB54617253B1BBED2AE1 /* Pods-Stickers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Stickers/Stickers.entitlements;
@@ -571,7 +514,6 @@
 		};
 		6EB674A5244ACF41005D10DC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 711E92BCE797BF3EA2E9FF24 /* Pods-Stickers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Stickers/Stickers.entitlements;
@@ -613,6 +555,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6EE2927F274B95F300F3DF5B /* XCRemoteSwiftPackageReference "MASShortcut" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/shpakovski/MASShortcut";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		6EE29282274B960A00F3DF5B /* XCRemoteSwiftPackageReference "SwiftyMarkdown" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SimonFairbairn/SwiftyMarkdown";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6EE29280274B95F300F3DF5B /* MASShortcut */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6EE2927F274B95F300F3DF5B /* XCRemoteSwiftPackageReference "MASShortcut" */;
+			productName = MASShortcut;
+		};
+		6EE29283274B960A00F3DF5B /* SwiftyMarkdown */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6EE29282274B960A00F3DF5B /* XCRemoteSwiftPackageReference "SwiftyMarkdown" */;
+			productName = SwiftyMarkdown;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6EB6748B244ACF40005D10DC /* Project object */;
 }

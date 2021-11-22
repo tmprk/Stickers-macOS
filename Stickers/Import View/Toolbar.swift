@@ -8,7 +8,7 @@
 
 import Cocoa
 
-protocol CanvasDelegate: class {
+protocol CanvasDelegate: AnyObject {
     func activateMode(index: Int)
     func resetMask()
     func setBorderColor(color: NSColor)
@@ -16,7 +16,7 @@ protocol CanvasDelegate: class {
     func showSavePanel()
 }
 
-protocol ManagerDelegate: class {
+protocol ManagerDelegate: AnyObject {
     func deleteStickers()
 }
 

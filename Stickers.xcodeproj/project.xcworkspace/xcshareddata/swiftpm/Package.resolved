@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "MASShortcut",
+        "repositoryURL": "https://github.com/shpakovski/MASShortcut",
+        "state": {
+          "branch": "master",
+          "revision": "57ccb018863b328a22298a275593a1d87ab4db24",
+          "version": null
+        }
+      },
+      {
+        "package": "SwiftyMarkdown",
+        "repositoryURL": "https://github.com/SimonFairbairn/SwiftyMarkdown",
+        "state": {
+          "branch": null,
+          "revision": "5b0a1e76332a633726f9f9a00b4bbd840166bccf",
+          "version": "1.2.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

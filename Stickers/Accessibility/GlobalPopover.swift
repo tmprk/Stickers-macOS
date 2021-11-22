@@ -29,7 +29,7 @@ class GlobalPopover {
         let textCode = AXUIElementCopyAttributeValue(focusedElement, "AXSelectedText" as CFString, &selectedText)
         if (textCode == AXError.success) {
             // insert space
-            // AXUIElementSetAttributeValue(focusedElement, "AXSelectedText" as CFString, " " as CFTypeRef)
+            AXUIElementSetAttributeValue(focusedElement, "AXSelectedText" as CFString, " " as CFTypeRef)
             
             var selectedRangeValue: AnyObject?
             let selectedRangeError = AXUIElementCopyAttributeValue(focusedElement, kAXSelectedTextRangeAttribute as CFString, &selectedRangeValue)

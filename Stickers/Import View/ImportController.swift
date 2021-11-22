@@ -27,6 +27,11 @@ class ImportController: NSWindowController, NSToolbarDelegate, NSWindowDelegate 
     func setupToolbar() {
         toolbar = Toolbar(identifier: ToolbarIdentifiers.preferencesToolbar)
         toolbar.mainDelegate = self
+        
+        if #available(macOS 11.0, *) {
+            window?.toolbarStyle = .unified
+        }
+        
         window?.toolbar = toolbar
     }
     

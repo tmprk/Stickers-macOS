@@ -220,10 +220,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let aspectRatio = w / h
         if aspectRatio > 1 {
             print("width > height")
-            return NSSize(width: 545, height: 545 / aspectRatio)
+            return NSSize(width: 800, height: 800 / aspectRatio)
         } else {
             print("height > width")
-            return NSSize(width: 545 * aspectRatio, height: 545)
+            return NSSize(width: 800 * aspectRatio, height: 800)
         }
     }
     
