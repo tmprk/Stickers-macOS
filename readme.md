@@ -1,3 +1,5 @@
+> ⚠️ **I paused development on this project a while ago (after the MVP was developed).** I haven't been able to dedicate much time to updating it for Big Sur and Monterrey because I started to learn web development and I'm taking classes for school. I hope to get back to work on this project again soon! In the meantime, feel free to contribute or make a fork. 02-01-22 
+
 <br/>
 <p align="center">
   <a href="">
@@ -15,7 +17,7 @@
 
 Similar to stickers on iOS messages, this mac app allows you to create stickers from screenshots or existing images quickly.
 
-It's pretty self explanatory, but there are 3 main components: a sticker manager, editor, and popover. You can edit and view your sticker collections in the manager, cut-out stickers from screen captures using the editor, and easily insert images into any textfield.
+There are 3 main components: a sticker manager, editor, and popover. You can edit and view your sticker collections in the manager, cut-out stickers from screen captures using the editor, and easily insert images into any textfield.
 
 ### Screenshot
 
